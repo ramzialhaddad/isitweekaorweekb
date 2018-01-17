@@ -10,3 +10,24 @@ body {
 p{
 	text-align: center;
 }
+.information{
+	text-align: center;
+	float: left;
+	margin-left: 100px;
+	
+	border:10px solid blue;
+}
+.Downloads{
+	text-align: center;
+	float: right;
+	
+	margin-right: 100px;
+	border:10px solid purple;
+}
+.Discord{
+	text-align: center;
+	float: center;
+	margin-right: 600px;
+	margin-left: 600px;
+	border:10px solid #7289DA;
+}
