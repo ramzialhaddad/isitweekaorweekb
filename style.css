@@ -16,6 +16,11 @@
 	font-family: 'Noto Sans', sans-serif;
 }
 
+body {
+  overflow: hidden;
+  background: #262b2e
+}
+
 a.effect-underline:after {
   content: '';
   left: 0;
