@@ -1,0 +1,43 @@
+/** Custom Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+
+#weekaorb{
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	font-family: roboto;
+}
+
+#answer{
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background: #262b2e
+}
+
+a.effect-underline:after {
+  content: '';
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
